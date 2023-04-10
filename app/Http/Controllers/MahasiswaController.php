@@ -101,7 +101,7 @@ class MahasiswaController extends Controller
     
     public function Export_excel()
     {
-        return view('excel');
+        return Excel::download(new MahasiswaExport, 'mahasiswa.xlsx');
     }
     
 } 
