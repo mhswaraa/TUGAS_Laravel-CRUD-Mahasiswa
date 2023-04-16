@@ -1,26 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tambah Data Mahasiswa</title>
-</head>
-<body>
-
-    <h3>Halaman Tambah Data Mahasiswa</h3>
-    <a href="/mahasiswa">Kembali</a>
-    <br>
+@extends('layout.template')
+@section('content')
 
     @foreach($data as $mahasiswa)
     <form action="/mahasiswa/edit" method="post">
         {{ csrf_field() }}
-        NIM <input type="text" name="nim" required="required" value="{{ $mahasiswa->nim }}" placeholder="NIM"><br>
-        Nama <input type="text" name="nama" required="required" value="{{ $mahasiswa->nama }}" placeholder="Nama Lengkap"><br>
-        Alamat <input type="text" name="alamat" required="required" value="{{ $mahasiswa->alamat }}" placeholder="Alamat"><br>
-        Hp <input type="text" name="hp" required="required" value="{{ $mahasiswa->hp }}" placeholder="hp"><br>
-        <input type="submit" value="Simpan Data">
-    </form>
+        <div class="row">
+            <div class="col-md-6">
+              <div class="card card-primary">
+                <div class="card-header">
+                  <h3 class="card-title">Edit</h3>
+        
+                  <div class="card-tools">
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
+                      <i class="fas fa-minus"></i></button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="inputName">NIM</label>
+                    <input type="text" name="nim" class="form-control" required="required" value="{{ $mahasiswa->nim }}" placeholder="NIM">
+                  <div class="form-group">
+                    <label for="inputName">NAMA</label>
+                    <input type="text" name="nama" class="form-control" required="required" value="{{ $mahasiswa->nama }}" placeholder="Nama Lengkap">
+                  <div class="form-group">
+                    <label for="inputName">ALAMAT</label>
+                    <input type="text" name="alamat" class="form-control" required="required" value="{{ $mahasiswa->alamat }}" placeholder="Alamat">
+                  <div class="form-group">
+                    <label for="inputName">HP</label>
+                    <input type="text" name="hp" class="form-control" required="required" value="{{ $mahasiswa->hp }}" placeholder="hp">
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <a href="/mahasiswa" class="btn btn-secondary">Cancel</a>
+              <input type="submit" value="Save Changes" class="btn btn-success float-right">
+            </div>
+          </div>
     @endforeach
-</body>
-</html> 
+@endsection

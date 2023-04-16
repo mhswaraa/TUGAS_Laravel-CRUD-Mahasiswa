@@ -70,6 +70,7 @@ class MahasiswaController extends Controller
         }
     }
 
+
     public function ubah($nim)
     {
     $data=Mahasiswa::where('nim',$nim)->get();

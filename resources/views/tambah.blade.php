@@ -1,12 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tambah Data Mahasiswa</title>
-</head>
-<body>
+@extends('layout.template')
+@section('content')
+
+
+    <form action="/mahasiswa/store" method="post">
+        {{ csrf_field() }}
+        <div class="row">
+            <div class="col-md-6">
+              <div class="card card-primary">
+                <div class="card-header">
+                  <h3 class="card-title">General</h3>
+        
+                  <div class="card-tools">
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
+                      <i class="fas fa-minus"></i></button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="inputName">NIM</label>
+                    <input type="text" name="nim" class="form-control" required="required" placeholder="NIM">
+                  <div class="form-group">
+                    <label for="inputName">NAMA</label>
+                    <input type="text" name="nama" class="form-control" required="required" placeholder="Nama Lengkap">
+                  <div class="form-group">
+                    <label for="inputName">ALAMAT</label>
+                    <input type="text" name="alamat" class="form-control" required="required"  placeholder="Alamat">
+                  <div class="form-group">
+                    <label for="inputName">HP</label>
+                    <input type="text" name="hp" class="form-control" required="required" placeholder="hp">
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <a href="#" class="btn btn-secondary">Cancel</a>
+              <input type="submit" value="Tambah" class="btn btn-success float-right">
+            </div>
+          </div>
+@endsection
+
+
+{{-- @extends('layout.template')
+@section('content')
 
     <h3>Halaman Tambah Data Mahasiswa</h3>
     <a href="/mahasiswa">Kembali</a>
@@ -23,3 +59,5 @@
     </form>
 </body>
 </html>
+
+@endsection --}}
