@@ -48,7 +48,7 @@ pass    : 12345678
 
 Clone atau download repository
 
-`$ git clone https://github.com/MyFRA/penjualan-laravel.git`
+`$ git clone https://github.com/mhswaraa/LARAVEL-CRUD-Mahasiswa.git`
 
 Duplikat atau salin file .env.example ke .env
 
