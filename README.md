@@ -1,7 +1,7 @@
 # Penjualan Laravel
 <br>
  <p align="center">
-    <img src="public/images/photo1.png" alt="Logo Laravel" width="400">
+    !{alt text}https://github.com/mhswaraa/LARAVEL-CRUD-Mahasiswa/blob/main/public/admin/dist/img/photo2.png(?raw*true)
  </p>
 
  <br /> 
