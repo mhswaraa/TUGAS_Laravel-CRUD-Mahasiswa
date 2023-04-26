@@ -40,7 +40,7 @@ Kelas   : 21C Sistem Informasi <br>
 Matkul  : Pemrograman Berbasis web <br>
 
 
-Email   : admin@gmail.com
+Email   : admin@gmail.com <br>
 pass    : 12345678
 
 
