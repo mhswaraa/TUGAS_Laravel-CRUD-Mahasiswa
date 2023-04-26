@@ -1,37 +1,48 @@
-<a href="https://ibb.co/wLtMZXx"><img src="https://github.com/mhswaraa/LARAVEL-CRUD-Mahasiswa/blob/main/public/admin/dist/img/photo2.png" alt="dashboard" border="0"></a>
+## Tampilan Utama Project
+
+<img src="https://github.com/mhswaraa/LARAVEL-CRUD-Mahasiswa/blob/main/public/image/Cuplikan%20layar%202023-04-26%20083306.png" alt="dashboard" border="0"></a>
+
+
+## Tampilam Add Mahasiswa
+
+<img src="https://github.com/mhswaraa/LARAVEL-CRUD-Mahasiswa/blob/main/public/image/Cuplikan%20layar%202023-04-26%20083619.png" alt="dashboard" border="0"></a>
+ 
+ 
+## Tampilan Edit
+
+<img src="https://github.com/mhswaraa/LARAVEL-CRUD-Mahasiswa/blob/main/public/image/Cuplikan%20layar%202023-04-26%20083536.png" alt="dashboard" border="0"></a>
+
+
+## Tampilan PDF
+
+<img src="https://github.com/mhswaraa/LARAVEL-CRUD-Mahasiswa/blob/main/public/image/Cuplikan%20layar%202023-04-26%20083707.png" alt="dashboard" border="0"></a>
+
+
+# Tampilan Excel
+
+<img src="https://github.com/mhswaraa/LARAVEL-CRUD-Mahasiswa/blob/main/public/image/Cuplikan%20layar%202023-04-26%20084004.png" alt="dashboard" border="0"></a>
+
 
 ## Fitur
 
 - Multi user ( Pengguna ).
-- Karena, menggunakan konsep tim / kelompok, maka terdapat fitur keanggotaan, yang memiliki hak akses masing masing.
-- Role = Pemilik, Administrator, Anggota
-- Cocok untuk pemilik usaha reseller
-- Untuk Menambahkan anggota ke dalam kelompok/tim/perusahaan, menggunakan token invite link, seperti invite group whatsapp.
--dan masih terdapat beberapa fitur lainya.
-
-## Kekurangan
-
-- masih banyak kekurangan.
-- Masih dalam tahap pengembangan, dan entah kapan mau dilanjut.
+- Add Mahasiswa
+- CRUD
+- Export PDF
+- Export Excel
 
 
+## Project UTS - Pemrograman Berbasis Web
 
-## Framework
+Nama    : Maheswara Wira yoganata
+NIM     : 210101067
+Kelas   : 21C Sistem Informasi
+Matkul  : Pemrograman Berbasis web
 
-- Laravel
 
+Email   : admin@gmail.com
+pass    : 12345678
 
-
-## Screenshoots
-
- <p align="center">
-<a href="https://ibb.co/Gp9q8s9"><img src="https://i.ibb.co/sRCZN5C/keranjang.png" alt="keranjang" border="0"></a>
-<br><br>
-<a href="https://ibb.co/XF4jRGt"><img src="https://i.ibb.co/YfWPsVh/checkout.png" alt="checkout" border="0"></a>
-<br><br>
-<a href="https://ibb.co/JdWcT7Z"><img src="https://i.ibb.co/z5WmgRd/kas.png" alt="kas" border="0"></a>
-
-</p>
 
 ## Instalasi
 
@@ -49,12 +60,6 @@ Setelah itu jalankan perintah berikut.
 `$ php artisan migrate` <br>
 `$ php artisan db:seed` <br>
 `$ php artisan storage:link`
-
-Agar fitur cek ongkir berjalan lancar, masukan key api rajaongkir, di dalam file .env
-<p align="center">
-<a href="https://ibb.co/LzX89PH"><img src="https://i.ibb.co/0jRcYXv/rajaongkir.png" alt="rajaongkir" border="0"></a>
-</p>
-
 
 ## Menjalankan
 
