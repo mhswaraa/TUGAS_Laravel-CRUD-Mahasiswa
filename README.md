@@ -34,10 +34,10 @@
 
 ## Project UTS - Pemrograman Berbasis Web
 
-Nama    : Maheswara Wira yoganata
-NIM     : 210101067
-Kelas   : 21C Sistem Informasi
-Matkul  : Pemrograman Berbasis web
+Nama    : Maheswara Wira yoganata <br>
+NIM     : 210101067 <br>
+Kelas   : 21C Sistem Informasi <br>
+Matkul  : Pemrograman Berbasis web <br>
 
 
 Email   : admin@gmail.com
