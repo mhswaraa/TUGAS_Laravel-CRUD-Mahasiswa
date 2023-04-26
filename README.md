@@ -1,10 +1,4 @@
-# Penjualan Laravel
-<br>
- <p align="center">
-    !{alt text}https://github.com/mhswaraa/LARAVEL-CRUD-Mahasiswa/blob/main/public/admin/dist/img/photo2.png(?raw*true)
- </p>
-
- <br /> 
+<a href="https://ibb.co/wLtMZXx"><img src="https://github.com/mhswaraa/LARAVEL-CRUD-Mahasiswa/blob/main/public/admin/dist/img/photo2.png" alt="dashboard" border="0"></a>
 
 ## Fitur
 
