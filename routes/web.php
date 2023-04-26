@@ -1,11 +1,26 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MahasiswaController;
+use App\Http\Controllers\SesiController;
+use Illuminate\Queue\RedisQueue;
 
+//  Route Middleware
+Route::middleware(['guest'])->group(function() {
+    Route::get('/',[SesiController::class,'index']);
+    Route::post('/',[SesiController::class,'login']);
+});
+
+Route::get('/home', function () {
+    return Redirect ('/adm');
+});
+
+//  Route To mahasiswa
+Route::get('/adm',[AdminController::class,'index']);
+Route::get('/logout',[SesiController::class,'logout']);
 
 // Route To MahasiswaController
-Route::get('/','App\Http\Controllers\MahasiswaController@index');
 Route::get('/mahasiswa','App\Http\Controllers\MahasiswaController@tampil');
 Route::get('/tambah','App\Http\Controllers\MahasiswaController@tambah');
 Route::post('/mahasiswa','App\Http\Controllers\MahasiswaController@tampil');
